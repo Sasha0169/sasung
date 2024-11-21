@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samsung</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="page">
+    <div class="header page__head">
+        <div class="header__upper-head page_black upper-head">
+            <div class="upper-head__wrap">
+                <a class="upper-head__location location" href="">
+                    <img class="location__sign" src="image/location.png" alt="l">
+                    <p class="location__city">
+                        Местоположение
+                    </p>
+                </a>
+                <ul class="upper-head__navigation nav">
+                    <li class="nav__variant"><a href="" class="nav__link">Акции</a></li>
+                    <li class="nav__variant"><a href="" class="nav__link">Бизнес</a></li>
+                    <li class="nav__variant"><a href="" class="nav__link">Доставка</a></li>
+                    <li class="nav__variant"><a href="" class="nav__link">Оплата</a></li>
+                    <li class="nav__variant"><a href="" class="nav__link">Магазины</a></li>
+                </ul>
+                <div class="upper-head__right-part">
+                    <div class="information-and-entrance">
+                        <ul class="information-and-entrance__information">
+                            <li class="information-and-entrance__working-time">
+                                Ежедневно с 9:00 до 20:00
+                            </li>
+                            <li class="information-and-entrance__number">
+                                8 800 755 - 7525
+                            </li>
+                        </ul>
+                        <a class="information-and-entrance__entrance entrance" href="">
+                            <img class="entrance__sign" src="image/entrance.png" alt="e"> 
+                            <p class="entrance__text">
+                                Войти
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__lower-head lower-head">
+            <div class="lower-head__wrap">
+                <div class="lower-head__wrap-for-left-element">
+                    <button class="lower-head__button-for-navigation-menu" onclick="viewMenuNavigation()">
+                        <img src="image/button-for-nav.png" alt="b">
+                    </button>
+                </div>
+                <div class="lower-head__wrap-for-center-element">
+                    <div class="lower-head__emblem emblem">
+                        <a href="./Главная страница.html" class="emblem__link">
+                            <img class="emblem" src="image/emblema.png" alt="emblem__emblem">
+                        </a>
+                    </div>
+                </div>
+                <ul class="lower-head__categories-navigation categories-navigation">
+                    <li class="categories-navigation__option"><p class="categories-navigation__link">Смартфоны</p></li>
+                    <li class="categories-navigation__option"><p class="categories-navigation__link">Планшеты</p></li>
+                    <li class="categories-navigation__option"><p class="categories-navigation__link">Ноутбуки</p></li>
+                    <li class="categories-navigation__option"><p class="categories-navigation__link">Для ПК</p></li>
+                    <li class="categories-navigation__option"><p class="categories-navigation__link">Носимые устройства</p></li>
+                    <li class="categories-navigation__option"><p class="categories-navigation__link">ТВ и аудио</p></li>
+                    <li class="categories-navigation__option"><p class="categories-navigation__link">Бытовая техника</p></li>
+                    <li class="categories-navigation__option"><p class="categories-navigation__link">Аксессуары</p></li>
+                </ul> 
+                <div class="lower-head__wrap-for-right-element">
+                    <div class="lower-head__buttons">
+                        <a href="" class="buttons__search button">
+                            <img class="button-search__img" src="image/search.png" alt="s">
+                        </a>
+                        <a href="" class="buttons__compraison button">
+                            <img class="button-compraison__img" src="image/comparison.png" alt="c">
+                        </a>
+                        <a href="./Корзина.html" class="buttons__basket button">
+                            <img class="button-basket__img" src="image/basket.png" alt="b">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="body page-body page_gray">
+        <div class="checkout">
+            <h1 class="checkout__title">
+                Оформление заказа
+            </h1>
+            <div class="checkout__content">
+                <div class="checkout__form-to-fill form-to-fill page_white">
+                    <div class="form-to-fill__chapter section-for-form-to-fill">
+                        <div class="section-for-form-to-fill__title-and-tab">
+                            <div class="section-for-form-to-fill__wrap-for-title">
+                                <h2 class="section-for-form-to-fill__title">
+                                    1. Выберите удобный способ получения заказа
+                                </h2>
+                            </div>
+                            <div class="section-for-form-to-fill__tabs">
+                                <div class="section-for-form-to-fill__tab section-for-form-to-fill__selected-tab">
+                                    <p class="section-for-form-to-fill__tab-name">
+                                        Доставка
+                                    </p>
+                                </div>
+                                <div class="section-for-form-to-fill__tab">
+                                    <p class="section-for-form-to-fill__tab-name">
+                                        Самовывоз
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section-for-form-to-fill__content">
+                            <div class="section-for-form-to-fill__wrap-for-store-selection-button">
+                                <a class="section-for-form-to-fill__store-selection-button store-selection-button store-selection-button__text" href="">
+                                    ВЫБРАТЬ МАГАЗИН
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-to-fill__chapter section-for-form-to-fill">
+                        <div class="section-for-form-to-fill__title-and-tab">
+                            <div class="section-for-form-to-fill__wrap-for-title">
+                                <h2 class="section-for-form-to-fill__title">
+                                    2. Получатель заказа
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="section-for-form-to-fill__content">
+                            <div class="section-for-form-to-fill__wrap-for-form">
+                                <div class="form">
+                                    <div class="form__text-box text-box">
+                                        <p class="text-box__name">
+                                            Фамилия
+                                        </p>
+                                        <input type="text" class="text-box__field_small text-box__field" placeholder="Введите свою фамилию">
+                                    </div>
+                                    <div class="form__text-box text-box">
+                                        <p class="text-box__name">
+                                            Имя
+                                        </p>
+                                        <input type="text" class="text-box__field_small text-box__field" placeholder="Введите своё имя">
+                                    </div>
+                                    <div class="form__text-box text-box">
+                                        <p class="text-box__name">
+                                            Отчество
+                                        </p>
+                                        <input type="text" class="text-box__field_small text-box__field" placeholder="Введите своё отчество">
+                                    </div>
+                                    <div class="form__text-box text-box">
+                                        <p class="text-box__name">
+                                            Телефон
+                                        </p>
+                                        <input type="text" class="text-box__field_large text-box__field" placeholder="+7 (_ _ _) _ _ _ - _ _ - _ _ ">
+                                    </div>
+                                    <div class="form__text-box text-box">
+                                        <p class="text-box__name">
+                                            Email
+                                        </p>
+                                        <input type="text" class="text-box__field_large text-box__field" placeholder="Введите ваш email">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-to-fill__chapter section-for-form-to-fill">
+                        <div class="section-for-form-to-fill__title-and-tab">
+                            <div class="section-for-form-to-fill__wrap-for-title">
+                                <h2 class="section-for-form-to-fill__title">
+                                    3. Способ оплаты заказа
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="section-for-form-to-fill__content">
+                            <div class="section-for-form-to-fill__wrap-for-payment-selection">
+                                <div class="payment-selection">
+                                    <div class="payment-selection__wrap-for-title">
+                                        <p class="payment-selection__title">
+                                            Оплата при получении
+                                        </p>
+                                        <img src="image/arrow-for-payment.png" alt="a" class="payment-selection__arrow">
+                                    </div>
+                                    <div class="payment-selection__options">
+                                        <div class="payment-selection__option option-radio-button">
+                                            <input type="radio" value="Наличными" name="payment-selection" class="option-radio-button__radio-button">
+                                            <p class="option-radio-button__text">
+                                                Наличными
+                                            </p>
+                                        </div>
+                                        <div class="payment-selection__option option-radio-button">
+                                            <input type="radio" value="Банковской картой при получении" name="payment-selection" class="option-radio-button__radio-button">
+                                            <p class="option-radio-button__text">
+                                                Банковской картой при получении
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="checkout__order-confirmation">
+                    <div class="checkout__result-and-button">
+                        <div class="checkout__result results-of-ordering page_white">
+                            <div class="results-of-ordering__chapter results-of-ordering__box-for-counter">
+                                <p class="results-of-ordering__text-near-counter">
+                                    Ваш заказ
+                                </p>
+                                <p class="results-of-ordering__text-counter">
+                                    2 товар
+                                </p>
+                            </div>
+                            <div class="results-of-ordering__chapter results-of-ordering__box-for-product">
+                                <p class="results-of-ordering__product-name">
+                                    Смартфон Samsung Galaxy Z Fold4 - Бежевый, Бежевый, 512 Гб
+                                </p>
+                                <p class="results-of-ordering__quantity-and-price">
+                                    1 шт х  139 990₽
+                                </p>
+                            </div>
+                            <div class="results-of-ordering__chapter results-of-ordering__box-for-product">
+                                <p class="results-of-ordering__product-name">
+                                    Стиральная машина Samsung WW5100A (Eco Bubble), 8 кг - белый/чёрный-люк, Белый
+                                </p>
+                                <p class="results-of-ordering__quantity-and-price">
+                                    1 шт х  64 990₽
+                                </p>
+                            </div>
+                            <div class="results-of-ordering__chapter results-of-ordering__box-for-final-accounting">
+                                <div class="results-of-ordering__total-number-of-products-and-sum">
+                                    <p class="results-of-ordering__total-number-of-products">
+                                        Товары (2)
+                                    </p>
+                                    <p class="results-of-ordering__sum">
+                                        204 980 ₽
+                                    </p>
+                                </div>
+                                <div class="results-of-ordering__delivery">
+                                    <p class="results-of-ordering__text-about-delivery">
+                                        Стоимость доставки
+                                    </p>
+                                    <p class="results-of-ordering__price-of-delivery">
+                                        0 ₽
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="results-of-ordering__chapter results-of-ordering__box-for-final-price">
+                                <p class="results-of-ordering__text-near-final-price">
+                                    Итого 
+                                </p>
+                                <p class="results-of-ordering__final-price">
+                                    204 980 ₽ 
+                                </p>
+                            </div>
+                        </div>
+                        <a class="checkout-button" href="">
+                            ПОДТВЕРДИТЬ ЗАКАЗ
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer page__footer">
+        <div class="footer__wrap-for-content">
+             <div class="footer__column">
+                 <a href="./Главная страница.html" class="emblem__link">
+                     <img class="footer__emblema" src="image/emblema.png" alt="emblem__emblem">
+                 </a>
+                 <ul class="footer__category-navigation navigation-list navigation-list1">
+                     <li class="navigation-list__variant"><a href="" class="navigation-list__link">Смартфоны</a></li>
+                     <li class="navigation-list__variant"><a href="" class="navigation-list__link">Планшеты</a></li>
+                     <li class="navigation-list__variant"><a href="" class="navigation-list__link">Бытовая техника</a></li>
+                     <li class="navigation-list__variant"><a href="" class="navigation-list__link">Аксессуары</a></li>
+                     <li class="navigation-list__variant"><a href="" class="navigation-list__link">Распродажа</a></li>
+                 </ul>
+             </div>
+             <div class="footer__column">
+                 <div class="footer__title-and-arrow" onclick="viewAndCloseListNavigationInFooter2()">
+                     <h2 class="footer__column-title">Поддержка</h2>
+                     <img class="footer__arrow" src="image/arrow-for-footer.png" alt="a">
+                 </div>
+                 <ul class="footer__support-navigation navigation-list navigation-list2">
+                     <li class="navigation-list__variant"><a href="" class="navigation-list__link">О компании</a></li>
+                     <li class="navigation-list__variant"><a href="" class="navigation-list__link">Акции</a></li>
+                     <li class="navigation-list__variant"><a href="" class="navigation-list__link">Магазины</a></li>
+                     <li class="navigation-list__variant"><a href="" class="navigation-list__link">Доставка</a></li>
+                     <li class="navigation-list__variant"><a href="" class="navigation-list__link">Оплата</a></li>
+                     <li class="navigation-list__variant"><a href="" class="navigation-list__link">Кредит</a></li>
+                     <li class="navigation-list__variant"><a href="" class="navigation-list__link">Установка техники</a></li>
+                     <li class="navigation-list__variant"><a href="" class="navigation-list__link">Сервисное обслуживание</a></li>
+                     <li class="navigation-list__variant"><a href="" class="navigation-list__link">Обмен и возврат</a></li>
+                     <li class="navigation-list__variant"><a href="" class="navigation-list__link">Бонусная программа</a></li>
+                     <li class="navigation-list__variant"><a href="" class="navigation-list__link">Политика конфиденциальности</a></li>
+                     <li class="navigation-list__variant"><a href="" class="navigation-list__link">Условия продажи</a></li>
+                 </ul>
+             </div>
+             <div class="footer__column">
+                 <div class="footer__title-and-arrow" onclick="viewAndCloseContactListInFooter()">
+                     <h2 class="footer__column-title">Контакты</h2>
+                     <img class="footer__arrow" src="image/arrow-for-footer.png" alt="a">
+                 </div>
+                 <div class="footer__contacts">
+                     <div class="contact">
+                         <h3 class="contact__title">
+                             E-mail
+                         </h3>
+                         <a class="contact__email" href="">
+                             samsung@mail.ru
+                         </a>
+                     </div>
+                     <div class="contact">
+                         <h3 class="contact__title">
+                             Телефон
+                         </h3>
+                         <p class="contact__phone">
+                             8 800 000-0000
+                         </p>
+                         <p class="contact__working-time">
+                             Ежедневно с 9:00 до 22:00
+                         </p>
+                     </div>
+                     <div class="contact">
+                         <h3 class="contact__title">
+                             Адрес
+                         </h3>
+                         <div class="contact__wrap-for-address">
+                             <p class="contact__address">
+                                 ООО "ГЭЛЭКСИМАРТ", г. Москва, Волоколамское шоссе, д.1, стр. 1
+                             </p>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+        </div>
+    </div>
+    <div class="transparent-background-with-navigation-menu">
+        <div class="navigation-menu page_white">
+            <div class="navigation-menu__title-and-close-button">
+                <h2 class="navigation-menu__title">
+                    Каталог
+                </h2>
+                <button class="navigation-menu__close-button close-button" onclick="closeMenuNavigation()">
+                    <img class="close-button__image" src="image/for-close-button.png">
+                </button>
+            </div>
+            <a href=""  class="navigation-menu__section section-for-navigation-menu">
+                <p class="section-for-navigation-menu__text">
+                    Смартфоны
+                </p>
+                <img class="section-for-navigation-menu__arrow" src="image/arrow-for-footer.png" alt="a">
+            </a>
+            <a href=""  class="navigation-menu__section section-for-navigation-menu">
+                <p class="section-for-navigation-menu__text">
+                    Планшеты
+                </p>
+                <img class="section-for-navigation-menu__arrow" src="image/arrow-for-footer.png" alt="a">
+            </a>
+            <a href=""  class="navigation-menu__section section-for-navigation-menu section-for-navigation-menu_without-arrow">
+                <p class="section-for-navigation-menu__text">
+                    Ноутбуки
+                </p>
+                <img class="section-for-navigation-menu__arrow" src="image/arrow-for-footer.png" alt="a">
+            </a>
+            <a href=""  class="navigation-menu__section section-for-navigation-menu">
+                <p class="section-for-navigation-menu__text">
+                    Для ПК
+                </p>
+                <img class="section-for-navigation-menu__arrow" src="image/arrow-for-footer.png" alt="a">
+            </a>
+            <a href=""  class="navigation-menu__section section-for-navigation-menu">
+                <p class="section-for-navigation-menu__text">
+                    Носимые устройства
+                </p>
+                <img class="section-for-navigation-menu__arrow" src="image/arrow-for-footer.png" alt="a">
+            </a>
+            <a href=""  class="navigation-menu__section section-for-navigation-menu">
+                <p class="section-for-navigation-menu__text">
+                    ТВ и аудио
+                </p>
+                <img class="section-for-navigation-menu__arrow" src="image/arrow-for-footer.png" alt="a">
+            </a>
+            <a href=""  class="navigation-menu__section section-for-navigation-menu">
+                <p class="section-for-navigation-menu__text">
+                    Бытовая техника
+                </p>
+                <img class="section-for-navigation-menu__arrow" src="image/arrow-for-footer.png" alt="a">
+            </a>
+            <a href=""  class="navigation-menu__section section-for-navigation-menu">
+                <p class="section-for-navigation-menu__text">
+                    Аксессуары
+                </p>
+                <img class="section-for-navigation-menu__arrow" src="image/arrow-for-footer.png" alt="a">
+            </a>
+            <a href=""  class="navigation-menu__section section-for-navigation-menu section-for-navigation-menu_without-arrow section-for-navigation-menu_gray-section">
+                <p class="section-for-navigation-menu__text">
+                    Акции
+                </p>
+                <img class="section-for-navigation-menu__arrow" src="image/arrow-for-footer.png" alt="a">
+            </a>
+            <a href=""  class="navigation-menu__section section-for-navigation-menu section-for-navigation-menu_without-arrow section-for-navigation-menu_gray-section">
+                <p class="section-for-navigation-menu__text">
+                    Бизнес
+                </p>
+                <img class="section-for-navigation-menu__arrow" src="image/arrow-for-footer.png" alt="a">
+            </a>
+            <a href=""  class="navigation-menu__section section-for-navigation-menu section-for-navigation-menu_without-arrow section-for-navigation-menu_gray-section">
+                <p class="section-for-navigation-menu__text">
+                    Доставка
+                </p>
+                <img class="section-for-navigation-menu__arrow" src="image/arrow-for-footer.png" alt="a">
+            </a>
+            <a href=""  class="navigation-menu__section section-for-navigation-menu section-for-navigation-menu_without-arrow section-for-navigation-menu_gray-section">
+                <p class="section-for-navigation-menu__text">
+                    Оплата
+                </p>
+                <img class="section-for-navigation-menu__arrow" src="image/arrow-for-footer.png" alt="a">
+            </a>
+            <a href=""  class="navigation-menu__section section-for-navigation-menu section-for-navigation-menu_without-arrow section-for-navigation-menu_gray-section">
+                <p class="section-for-navigation-menu__text">
+                    Магазины
+                </p>
+                <img class="section-for-navigation-menu__arrow" src="image/arrow-for-footer.png" alt="a">
+            </a>
+            <div class="navigation-menu__lower-part">
+                <div class="navigation-menu__wrap-for-working-time">
+                    <p class="navigation-menu__working-time">
+                        Ежедневно с 9:00 до 20:00
+                    </p>
+                </div>
+                <p class="navigation-menu__number">
+                    8 800 000-0000
+                </p>
+            </div>
+        </div>
+        <div class="transparent-background"  onclick="closeMenuNavigation()">
+
+        </div>
+    </div>
+    <div class="fixed-panel">
+        <a class="fixed-panel__section" href="Главная страница.html">
+            <svg class="fixed-panel__icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="black">
+                <path d="M12.4999 19.9998H16.2498C16.5948 19.9998 16.8748 19.7198 16.8748 19.3748V10.6248H19.3748C19.6276 10.6248 19.8554 10.4726 19.9523 10.2389C20.0492 10.0055 19.9958 9.73672 19.8167 9.55797L10.4418 0.183045C10.1977 -0.0610151 9.80209 -0.0610151 9.55803 0.183045L0.183103 9.55797C0.00435436 9.73672 -0.0490827 10.0055 0.047479 10.2389C0.144353 10.4726 0.372164 10.6248 0.624974 10.6248H3.12495V19.3748C3.12495 19.7198 3.40495 19.9998 3.74995 19.9998H7.49992C7.84491 19.9998 8.12491 19.7198 8.12491 19.3748V14.9998H11.8749V19.3748C11.8749 19.7198 12.1549 19.9998 12.4999 19.9998ZM7.49992 13.7498C7.15492 13.7498 6.87492 14.0298 6.87492 14.3748V18.7498H4.37494V9.99984C4.37494 9.65484 4.09495 9.37484 3.74995 9.37484H2.13371L9.9999 1.50897L17.8661 9.37484H16.2498C15.9048 9.37484 15.6249 9.65484 15.6249 9.99984V18.7498H13.1249V14.3748C13.1249 14.0298 12.8449 13.7498 12.4999 13.7498H7.49992Z"/>
+            </svg>
+            <p class="fixed-panel__section-name">
+                Главная
+            </p>
+        </a>
+        <a class="fixed-panel__section" href="">
+            <svg class="fixed-panel__icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="black">
+                <path d="M19.7049 14.0125L15.4317 9.74261C15.0382 9.34944 14.4008 9.34944 14.0073 9.74261L9.73463 14.0125C9.34115 14.4051 9.34115 15.0426 9.73463 15.4352L14.0073 19.7051C14.4008 20.0983 15.0382 20.0983 15.4317 19.7051L19.7049 15.4352C20.0984 15.0426 20.0984 14.4051 19.7049 14.0125ZM14.7275 18.9293L10.511 14.7161L14.7275 10.5028L18.9441 14.7161L14.7275 18.9293ZM7.22483 0H1.11151C0.497402 0 0 0.497015 0 1.11065V7.21921C0 7.83229 0.497402 8.32986 1.11151 8.32986H7.22483C7.83839 8.32986 8.33634 7.83229 8.33634 7.21921V1.11065C8.33634 0.497015 7.83839 0 7.22483 0ZM7.22483 7.21921H1.11151V1.11065H7.22483V7.21921ZM7.22483 9.99583H1.11151C0.497402 9.99583 0 10.4929 0 11.1065V17.215C0 17.8281 0.497402 18.3257 1.11151 18.3257H7.22483C7.83839 18.3257 8.33634 17.8281 8.33634 17.215V11.1065C8.33634 10.4929 7.83839 9.99583 7.22483 9.99583ZM7.22483 17.215H1.11151V11.1065H7.22483V17.215ZM11.1151 8.32986H17.2284C17.842 8.32986 18.34 7.83229 18.34 7.21921V1.11065C18.34 0.497015 17.842 0 17.2284 0H11.1151C10.501 0 10.0036 0.497015 10.0036 1.11065V7.21921C10.0036 7.83229 10.501 8.32986 11.1151 8.32986ZM11.1151 1.11065H17.2284V7.21921H11.1151V1.11065Z"/>
+            </svg>
+            <p class="fixed-panel__section-name">
+                Каталог
+            </p>
+        </a>
+        <a class="fixed-panel__section" href="">
+            <svg class="fixed-panel__icon" xmlns="http://www.w3.org/2000/svg" width="22" height="19" viewBox="0 0 22 19" stroke="black" fill="none">
+                <path d="M10.9975 18C10.9975 18 2.58242 11.6222 1.37455 7.99765C0.348996 5.40564 1.37433 1.47465 5.13469 1.04444C8.89507 0.614231 10.9975 3.73324 10.9975 3.73324C10.9975 3.73324 13.1114 0.592723 16.8661 1.04444C20.6207 1.49616 21.6518 5.40564 20.6262 7.99765C19.4184 11.5953 10.9975 18 10.9975 18Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <p class="fixed-panel__section-name">
+                Избранное
+            </p>
+        </a>
+        <a class="fixed-panel__section" href="">
+            <svg class="fixed-panel__icon" xmlns="http://www.w3.org/2000/svg" width="18" height="20" viewBox="0 0 18 20" fill="black">
+                <path d="M8.99989 9.49288C9.92596 9.49288 10.8312 9.21451 11.6012 8.69296C12.3712 8.17142 12.9714 7.43012 13.3257 6.56282C13.6801 5.69553 13.7729 4.74118 13.5922 3.82046C13.4115 2.89974 12.9656 2.054 12.3108 1.3902C11.6559 0.7264 10.8216 0.274346 9.91336 0.0912036C9.00509 -0.0919388 8.06364 0.00205655 7.20807 0.361303C6.35249 0.72055 5.62122 1.32891 5.10673 2.10946C4.59224 2.89001 4.31763 3.80768 4.31763 4.74644C4.31763 6.00528 4.81094 7.21255 5.68903 8.10268C6.56713 8.99281 7.75808 9.49288 8.99989 9.49288ZM8.99989 1.35613C9.66137 1.35613 10.308 1.55497 10.858 1.9275C11.408 2.30003 11.8366 2.82953 12.0898 3.44902C12.3429 4.06852 12.4092 4.7502 12.2801 5.40786C12.1511 6.06552 11.8325 6.66961 11.3648 7.14375C10.8971 7.6179 10.3011 7.94079 9.65237 8.07161C9.0036 8.20243 8.33114 8.13529 7.72002 7.87868C7.10889 7.62208 6.58656 7.18753 6.21906 6.63C5.85157 6.07246 5.65542 5.41698 5.65542 4.74644C5.65542 3.84727 6.00778 2.98493 6.63499 2.34913C7.2622 1.71332 8.11288 1.35613 8.99989 1.35613Z"/>
+                <path d="M17.3412 14.1483C16.2685 12.999 14.9758 12.0835 13.5422 11.4579C12.1086 10.8322 10.5642 10.5095 9.00342 10.5095C7.44262 10.5095 5.89821 10.8322 4.46461 11.4579C3.03101 12.0835 1.73835 12.999 0.665648 14.1483C0.433082 14.4001 0.303917 14.7323 0.304445 15.0772V18.6438C0.304445 19.0035 0.44539 19.3484 0.696275 19.6027C0.947159 19.8571 1.28743 19.9999 1.64223 19.9999H16.3579C16.7127 19.9999 17.053 19.8571 17.3039 19.6027C17.5548 19.3484 17.6957 19.0035 17.6957 18.6438V15.0772C17.6981 14.7332 17.5713 14.4011 17.3412 14.1483ZM16.3579 18.6438H1.64223V15.0704C2.59021 14.0585 3.73139 13.2528 4.99631 12.7022C6.26124 12.1515 7.62346 11.8676 9.00008 11.8676C10.3767 11.8676 11.7389 12.1515 13.0038 12.7022C14.2688 13.2528 15.4099 14.0585 16.3579 15.0704V18.6438Z"/>
+            </svg>
+            <p class="fixed-panel__section-name">
+                Войти
+            </p>
+        </a>
+        <a class="fixed-panel__section  fixed-panel__section_selected" href="Корзина.html">
+            <svg class="fixed-panel__icon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="black">
+                <path d="M5.35463 5.37499H21L17.7318 14.4225C17.6711 14.5916 17.5601 14.7377 17.4139 14.8411C17.2677 14.9444 17.0935 14.9999 16.9148 15H6.98871C6.77517 15.0016 6.56854 14.9239 6.40823 14.7818C6.24791 14.6398 6.14515 14.4434 6.11952 14.23L4.47675 1H1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M16.5 21C17.3284 21 18 20.3284 18 19.5C18 18.6716 17.3284 18 16.5 18C15.6716 18 15 18.6716 15 19.5C15 20.3284 15.6716 21 16.5 21Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M7.00001 21C8.10459 21 9 20.3284 9 19.5C9 18.6716 8.10459 18 7.00001 18C5.89544 18 5 18.6716 5 19.5C5 20.3284 5.89544 21 7.00001 21Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <p class="fixed-panel__section-name">
+                Корзина
+            </p>
+        </a>
+    </div>
+    <div class="navigation-panel">
+        <div class="navigation-panel__wrap-for-content">
+            <div class="navigation-panel__column">
+                <h3 class="navigation-panel__title">
+                    Galaxy Z
+                </h3>
+                <a class="navigation-panel__option" href="">
+                    Galaxy Z Fold4
+                </a>
+                <a class="navigation-panel__option" href="">
+                    Galaxy Z Flip4
+                </a>
+            </div>
+            <div class="navigation-panel__column">
+                <h3 class="navigation-panel__title">
+                    Galaxy S
+                </h3>
+                <a class="navigation-panel__option" href="">
+                    Galaxy S23
+                </a>
+                <a class="navigation-panel__option" href="">
+                    Galaxy S22
+                </a>
+                <a class="navigation-panel__option" href="">
+                    Galaxy S21 FE
+                </a>
+            </div>
+            <div class="navigation-panel__column">
+                <h3 class="navigation-panel__title">
+                    Galaxy A
+                </h3>
+                <a class="navigation-panel__option" href="">
+                    Galaxy A73
+                </a>
+                <a class="navigation-panel__option" href="">
+                    Galaxy A54
+                </a>
+                <a class="navigation-panel__option" href="">
+                    Galaxy A53
+                </a>
+                <a class="navigation-panel__option" href="">
+                    Galaxy A34
+                </a>
+                <a class="navigation-panel__option" href="">
+                    Galaxy A33
+                </a>
+                <a class="navigation-panel__option" href="">
+                    Galaxy A23
+                </a>
+                <a class="navigation-panel__option" href="">
+                    Galaxy A14
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="navigation-panel">
+        <div class="navigation-panel__wrap-for-content">
+            <div class="navigation-panel__column">
+                <h3 class="navigation-panel__title">
+                    Galaxy Tab S серии
+                </h3>
+                <a class="navigation-panel__option" href="">
+                    Galaxy S8
+                </a>
+                <a class="navigation-panel__option" href="">
+                    Galaxy S7
+                </a>
+                <a class="navigation-panel__option" href="">
+                    Galaxy S6
+                </a>
+            </div>
+            <div class="navigation-panel__column">
+                <h3 class="navigation-panel__title">
+                    Galaxy Tab A серии
+                </h3>
+                <a class="navigation-panel__option" href="">
+                    Galaxy Tab A8
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="navigation-panel">
+        <div class="navigation-panel__wrap-for-content">
+            <div class="navigation-panel__column">
+                <h3 class="navigation-panel__title">
+                    Мониторы
+                </h3>
+                <a class="navigation-panel__option" href="">
+                    Изогнутые мониторы
+                </a>
+                <a class="navigation-panel__option" href="">
+                    Игровые мониторы
+                </a>
+                <a class="navigation-panel__option" href="">
+                    Все мониторы
+                </a>
+            </div>
+            <div class="navigation-panel__column">
+                <h3 class="navigation-panel__title">
+                    Память и накопители
+                </h3>
+                <a class="navigation-panel__option" href="">
+                    Карты памяти
+                </a>
+                <a class="navigation-panel__option" href="">
+                    Накопители SSD
+                </a>
+                <a class="navigation-panel__option" href="">
+                    Накопители USB
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="navigation-panel">
+        <div class="navigation-panel__wrap-for-content">
+            <div class="navigation-panel__column">
+                <h3 class="navigation-panel__title">
+                    Смарт-часы
+                </h3>
+                <a class="navigation-panel__option" href="">
+                    Galaxy Watch 5
+                </a>
+                <a class="navigation-panel__option" href="">
+                    Galaxy Watch 4
+                </a>
+            </div>
+            <div class="navigation-panel__column">
+                <h3 class="navigation-panel__title">
+                    Наушники
+                </h3>
+                <a class="navigation-panel__option" href="">
+                    Беспроводные
+                </a>
+                <a class="navigation-panel__option" href="">
+                    Проводные
+                </a>
+                <a class="navigation-panel__option" href="">
+                    Galaxy Buds
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="navigation-panel">
+        <div class="navigation-panel__wrap-for-content">
+            <div class="navigation-panel__column">
+                <h3 class="navigation-panel__title">
+                    Телевизоры
+                </h3>
+                <a class="navigation-panel__option" href="">
+                    Micro LED
+                </a>
+                <a class="navigation-panel__option" href="">
+                    NEO QLED 8K
+                </a>
+                <a class="navigation-panel__option" href="">
+                    NEO QLED TV
+                </a>
+                <a class="navigation-panel__option" href="">
+                    The Frame TV
+                </a>
+                <a class="navigation-panel__option" href="">
+                    The Serif TV
+                </a>
+                <a class="navigation-panel__option" href="">
+                    The Terrace
+                </a>
+                <a class="navigation-panel__option" href="">
+                    The Sero
+                </a>
+                <a class="navigation-panel__option" href="">
+                    Crystal UHD 4K
+                </a>
+                <a class="navigation-panel__option" href="">
+                    UHD TV
+                </a>
+                <a class="navigation-panel__option" href="">
+                    Full HD & HD
+                </a>
+                <a class="navigation-panel__option" href="">
+                    Монитор с функцией TV
+                </a>
+            </div>
+            <div class="navigation-panel__column">
+                <h3 class="navigation-panel__title">
+                    Проекторы
+                </h3>
+                <a class="navigation-panel__option" href="">
+                    Лазерные проекторы
+                </a>
+                <a class="navigation-panel__option" href="">
+                    Портативные проекторы
+                </a>
+            </div>
+            <div class="navigation-panel__column">
+                <h3 class="navigation-panel__title">
+                    Аудио
+                </h3>
+                <a class="navigation-panel__option" href="">
+                    Аудиосистемы Sound Tower
+                </a>
+                <a class="navigation-panel__option" href="">
+                    Саундбары
+                </a>
+                <a class="navigation-panel__option" href="">
+                    Тыловая акустика
+                </a>
+                <a class="navigation-panel__option" href="">
+                    Портативная акустика
+                </a>
+                <a class="navigation-panel__option" href="">
+                    Наушники
+                </a>
+            </div>
+            <div class="navigation-panel__column">
+                <h3 class="navigation-panel__title">
+                    Профессиональные дисплеи
+                </h3>
+                <a class="navigation-panel__option" href="">
+                    Интерактивные панели
+                </a>
+                <a class="navigation-panel__option" href="">
+                    Стойка для Samsung Flip
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="navigation-panel">
+        <div class="navigation-panel__wrap-for-content">
+            <div class="navigation-panel__column">
+                <h3 class="navigation-panel__title">
+                    Техника для дома
+                </h3>
+                <a class="navigation-panel__option" href="">
+                    Стиральные и сушильные машины
+                </a>
+                <a class="navigation-panel__option" href="">
+                    Пылесосы
+                </a>
+                <a class="navigation-panel__option" href="">
+                    Паровые шкафы
+                </a>
+                <a class="navigation-panel__option" href="">
+                    Кондиционеры
+                </a>
+                <a class="navigation-panel__option" href="">
+                    Очистители воздуха
+                </a>
+            </div>
+            <div class="navigation-panel__column">
+                <h3 class="navigation-panel__title">
+                    Техника для кухни
+                </h3>
+                <a class="navigation-panel__option" href="">
+                    Холодильники
+                </a>
+                <a class="navigation-panel__option" href="">
+                    Микроволновые печи
+                </a>
+                <a class="navigation-panel__option" href="">
+                    Посудомоечные машины
+                </a>
+                <a class="navigation-panel__option" href="">
+                    Духовые шкафы
+                </a>
+                <a class="navigation-panel__option" href="">
+                    Варочные панели
+                </a>
+                <a class="navigation-panel__option" href="">
+                    Кухонные вытяжки
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="navigation-panel">
+        <div class="navigation-panel__wrap-for-content">
+            <div class="navigation-panel__column">
+                <h3 class="navigation-panel__title">
+                    Аксессуары для устройств
+                </h3>
+                <a class="navigation-panel__option" href="">
+                    Для смартфонов
+                </a>
+                <a class="navigation-panel__option" href="">
+                    Для планшетов
+                </a>
+                <a class="navigation-panel__option" href="">
+                    Для умных часов
+                </a>
+                <a class="navigation-panel__option" href="">
+                    Для ноутбуков
+                </a>
+                <a class="navigation-panel__option" href="">
+                    Для телевизоров
+                </a>
+                <a class="navigation-panel__option" href="">
+                    Для бытовой техники
+                </a>
+            </div>
+            <div class="navigation-panel__column">
+                <h3 class="navigation-panel__title">
+                    Зарядные устройства и внешние аккумуляторы
+                </h3>
+                <a class="navigation-panel__option" href="">
+                    Автомобильные зарядные устройства
+                </a>
+                <a class="navigation-panel__option" href="">
+                    Беспроводные зарядные устройства
+                </a>
+                <a class="navigation-panel__option" href="">
+                    Сетевые зарядные устройства
+                </a>
+                <a class="navigation-panel__option" href="">
+                    Внешние аккумуляторы
+                </a>
+            </div>
+            <div class="navigation-panel__column">
+                <h3 class="navigation-panel__title">
+                    Кабели и переходники
+                </h3>
+                <a class="navigation-panel__option" href="">
+                    Кабели
+                </a>
+                <a class="navigation-panel__option" href="">
+                    Переходники
+                </a>
+            </div>
+            <div class="navigation-panel__column">
+                <h3 class="navigation-panel__title">
+                    Наушники
+                </h3>
+                <a class="navigation-panel__option" href="">
+                    Беспроводные
+                </a>
+                <a class="navigation-panel__option" href="">
+                    Проводные
+                </a>
+                <a class="navigation-panel__option" href="">
+                    Galaxy Buds
+                </a>
+            </div>
+            <div class="navigation-panel__column">
+                <h3 class="navigation-panel__title">
+                    Память и накопители
+                </h3>
+                <a class="navigation-panel__option" href="">
+                    Карты памяти
+                </a>
+                <a class="navigation-panel__option" href="">
+                    Накопители SSD
+                </a>
+                <a class="navigation-panel__option" href="">
+                    Накопители USB
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="js/scripts.js">
+    </script>
+</body>
+</html>
